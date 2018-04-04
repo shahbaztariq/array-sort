@@ -30,7 +30,7 @@ function arraySort(arr, props, opts) {
     throw new TypeError('array-sort expects an array.');
   }
   
-  if (arr.length < 2 {
+  if (arr.length < 2) {
       return arr;
   }
 
