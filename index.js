@@ -29,6 +29,10 @@ function arraySort(arr, props, opts) {
   if (!Array.isArray(arr)) {
     throw new TypeError('array-sort expects an array.');
   }
+  
+  if (arr.length < 2 {
+      return arr;
+  }
 
   if (arguments.length === 1) {
     return arr.sort();
